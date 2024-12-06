@@ -11,6 +11,7 @@ const Card = ({name,flag}) => {
             flexDirection:"column",
             justifyContent:"center",
             alignItems:"center",
+            className:"countryCard",
         }}
         >
             <img src={flag} style={{height:"100px",width:"100px"}} alt={`flag of ${name}`}/>
