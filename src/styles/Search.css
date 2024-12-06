@@ -6,8 +6,17 @@
     padding-left: 0;
     margin-left:40%;
     box-sizing: border-box;
+    position:sticky;
+    box-shadow: 5px 5px 4px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border:1px solid orange;
+    outline:none;
+}
+
+.search-input:focus{
+    border: 1px solid blue;
 }
 
 .search-container{
-    height:10px;
+    height:60px;
 }

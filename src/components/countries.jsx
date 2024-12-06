@@ -35,7 +35,8 @@ const Countries = () => {
 
   return (
     <>
-      <div style={{ marginTop: "5px" }}>
+    <div style={{height:"100vh",width:"100vw"}}>
+    <div style={{ marginTop: "5px",width:"100vw" }}>
         <Search setSearchQuery={setSearchQuery} />
       </div>
       <div
@@ -51,6 +52,7 @@ const Countries = () => {
           <Card key={cca3} flag={flags.png} name={name.common} />
         ))}
       </div>
+    </div>
     </>
   );
 };
